@@ -197,8 +197,6 @@ eventbrite: 49893352360
 
 <hr/>
 
-
-{% comment %}
 <h2 id="schedule">Schedule</h2>
 
 <div class="row">
