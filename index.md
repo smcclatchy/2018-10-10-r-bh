@@ -10,8 +10,8 @@ humandate: "Oct 10-11, 2018"
 humantime: "9:00 am - 4:30 pm"
 startdate: 2018-10-10
 enddate: 2018-10-11
-instructor: ["Georgi Kolishovski", "Stanley Yang"] 
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Georgi Kolishovski", "Stanley Yang", "Yuka Takemon"]
+helper: ["Duy Pham", "Sue McClatchy"]
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 49893352360
@@ -199,21 +199,49 @@ eventbrite: 49893352360
 
 
 {% comment %}
-  SCHEDULE
-
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
-{% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+<div class="row">
+<div class="col-md-6">
+<h3>Wednesday, Oct 10</h3>
+<table class="table table-striped">
+<tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/">Workshop Overview</a></td> </tr>
+<tr> <td>09:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/">Introduction to R and RStudio</a></td> </tr>
+<tr> <td>10:25</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/02-project-intro/">Project Management With RStudio</a></td> </tr>
+<tr> <td>10:45</td>  <td>Coffee</td> </tr>
+<tr> <td>11:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/">Seeking Help</a></td> </tr>
+<tr> <td>11:20</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1/">Data Structures</a></td> </tr>
+<tr> <td>12:30</td>  <td>Lunch break</td> </tr>
+<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2/">Exploring Data Frames</a></td> </tr>
+<tr> <td>14:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/06-data-subsetting/">Subsetting Data</a></td> </tr>
+<tr> <td>15:15</td>  <td>Coffee</td> </tr>
+<tr> <td>15:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/07-control-flow/">Control Flow</a></td> </tr>
+<tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
+<tr> <td>16:35</td>  <td>End</td> </tr>
+</table>
+</div>
+<div class="col-md-6">
+<h3>Thursday, Oct 11</h3>
+<table class="table table-striped">
+<tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2/">Creating Publication-Quality Graphics</a></td> </tr>
+<tr> <td>10:05</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/09-vectorization/">Vectorization</a></td> </tr>
+<tr> <td>10:05</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/10-functions/">Functions Explained</a></td> </tr>
+<tr> <td>10:45</td>  <td>Coffee</td> </tr>
+<tr> <td>11:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/10-functions/">Functions Explained (continued)</a></td> </tr>
+<tr> <td>11:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/11-writing-data/">Writing Data</a></td> </tr>
+<tr> <td>12:05</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr</a></td> </tr>
+<tr> <td>12:30</td>  <td>Lunch break</td> </tr>
+<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr (continued)</a></td> </tr>
+<tr> <td>14:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/">Dataframe Manipulation with tidyr</a></td> </tr>
+<tr> <td>14:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr</a></td> </tr>
+<tr> <td>15:15</td>  <td>Coffee</td> </tr>
+<tr> <td>15:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr (continued)</a></td> </tr>
+<tr> <td>15:45</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/16-wrap-up/">Writing Good Software</a></td> </tr>
+<tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+<tr> <td>16:05</td>  <td>End</td> </tr>
+</table>
+</div>
+</div>
 
 {% comment %}
   Collaborative Notes
