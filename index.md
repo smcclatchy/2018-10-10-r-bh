@@ -13,7 +13,7 @@ enddate: 2018-10-11
 instructor: ["Georgi Kolishovski", "Stanley Yang", "Yuka Takemon"]
 helper: ["Duy Pham", "Sue McClatchy"]
 email: ["susan.mcclatchy@jax.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/2018-10-10-r-bh
 eventbrite: 49893352360
 ---
 
