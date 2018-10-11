@@ -227,13 +227,12 @@ eventbrite: 49893352360
 <tr> <td>10:45</td>  <td>Coffee</td> </tr>
 <tr> <td>11:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/10-functions/">Functions Explained (continued)</a></td> </tr>
 <tr> <td>11:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/11-writing-data/">Writing Data</a></td> </tr>
-<tr> <td>12:05</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr</a></td> </tr>
-<tr> <td>12:30</td>  <td>Lunch break</td> </tr>
-<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr (continued)</a></td> </tr>
-<tr> <td>14:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/">Dataframe Manipulation with tidyr</a></td> </tr>
-<tr> <td>14:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr</a></td> </tr>
-<tr> <td>15:15</td>  <td>Coffee</td> </tr>
-<tr> <td>15:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr (continued)</a></td> </tr>
+<tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+<tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr</a></td> </tr>
+<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/">Dataframe Manipulation with tidyr</a></td> </tr>
+<tr> <td>14:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr</a></td> </tr>
+<tr> <td>15:00</td>  <td>Coffee</td> </tr>
+<tr> <td>15:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr (continued)</a></td> </tr>
 <tr> <td>15:45</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/16-wrap-up/">Writing Good Software</a></td> </tr>
 <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
 <tr> <td>16:05</td>  <td>End</td> </tr>
